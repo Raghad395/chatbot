@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+
+<html>
+<body style='background-color:lightgrey'>
+
+
+
+<h2 style= 
+'text-align:left;
+text-indent: 20px'>Robot Control Panel</h2>
+
+<table style="width:60%">
+  <tr>
+    <th>  </th>
+    <th>  </th> 
+    <th>  </th>
+  </tr>
+  
+     <tr><td></td>
+     
+    
+<td><input type="button" value="forward" name= "button"  method="post" 
+        style="color: black; 
+        font-size: 16px; 
+        padding: 15px;
+        background: lightblue; 
+        border-radius: 12px;
+        border:none;
+		margin-left:20px"></td>
+      <td>   </td>
+      </tr> </div>
+         <br>
+
+      <tr>
+<td><input type="button" value="left" name = "button" method="post"
+        style="color: black; 
+        font-size: 16px; 
+        padding: 15px;
+        background: lightblue; 
+        border-radius: 12px;
+        border:none;"></td>
+        
+
+<td><input type="button" value="stop" name = "button" method="post"
+        style="color: black; 
+        font-size: 16px; 
+        padding: 15px;
+        background: lightblue; 
+        border-radius: 12px;
+        border:none;
+        margin:40px"></td>
+        
+        <br>
+<td><input type="button" value="right" name = "button" method="post"
+        style="color: black; 
+        font-size: 16px; 
+        padding: 15px;
+        background: lightblue; 
+        border-radius: 12px;
+        border:none;
+		margin-right:900px
+       "></td>
+       </tr></div>
+
+        
+        <tr>
+        <td></td>
+<td><input type="button" value="backward" name = "button" method="post"
+        style="color: black; 
+        font-size: 16px; 
+        padding: 15px;
+        background: lightblue; 
+        border-radius: 12px;
+        border:none;
+        margin-left:20px">   
+        <td> 
+       </td>
+       </tr>
+       
+   
+	
+	<script>
+  
+  window.watsonAssistantChatOptions = {
+      integrationID: "61ffa66e-8af0-4af9-bbdb-fdd13e8a4140", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "14dd994e-86ea-4118-a9e1-0e8da2983a5e", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+
+   </script>
+	
+	</body>
+	
+	</html>
+	
